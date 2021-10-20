@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Remove Items</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            body{
+                overflow-x: hidden;
+            }
+            button{
+                border-radius: 20px;
+                padding:1.5px 3px;
+                background:lightcoral;
+                font-family: 'ubuntu';
+                border:3px solid black;
+                color:black;
+                font-weight: bolder;
+                font-size: 10px;
+            }
+        </style>
+    </head>
+    <body align="center">
+        <form method="post" action="delemp.php">
+            <img src="admins.jpg" width="1400" height="500">
+            <div class="container ProductBox">
+                <h1>Delete Items</h1><br>
+                <div class="input-group">
+                    <label><b>ITEM ID:</b></label>
+                    <input class="form-control" type="text" name="i_id" placeholder="Enter ITEM ID">
+                </div><br>
+                    <button class="btn btn-primary" type="submit">DELETE ITEMS</button>
+            </div>
+        </form>
+    </body>
+</html>

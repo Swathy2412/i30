@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD ITEMS</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div id="frn"><br>
+		<h2 align="center">ADD FLOWERS!!</h2><br>
+		<form method="post" action="additems.php">
+			<p>
+				<label>FLOWER NAME:</label>
+				<input type="text" name="name" id="user"/>
+            </p><br>
+            <p>
+				<label>FLOWER QUANTITY:</label>
+				<input type="text" name="quantity" id="user"/>
+            </p><br>
+            <p>
+                <!-- <input type="text" name="user" id="user"/> -->
+				<label>FLOWER COLOR:</label>
+				
+                <select  name="category" id="select">
+                    <option value="" > ---SELECT---</option>
+                      <option value="red" >RED</option>
+                      <option value="pink">PINK</option>
+                      <option value="yellow">YELLOW</option>
+                      
+                        </select>
+            </p><br>
+            <p>
+				<label>FLOWER PRICE:</label>
+				<input type="text" name="price" id="user"/>
+            </p><br>
+            <p>
+				
+				<input type="submit" name="user" id="btn"/>
+            </p><br>
+		</form>
+		
+	</div>
+</body>
+</html>
