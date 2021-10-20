@@ -32,7 +32,7 @@ body{
 
 }
 .navbar li a button{
-	text-decoration: none
+	text-decoration: none;
 	padding:4px 15px;
 	background:black;
 	height:28px;
